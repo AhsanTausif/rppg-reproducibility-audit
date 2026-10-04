@@ -1,0 +1,8 @@
+checkpoint,label,n_windows,mae,rmse
+physnet_pure,ALL clips,22,12.937265117687138,31.76627021325954
+physnet_pure,TEST split only,4,0.6541450389590651,1.0902530675253816
+physnet_pure,resting clips only (excl. after-exercise),21,13.465153668096635,32.51130343259651
+physnet_pure,after-exercise clip only,1,1.8516055590877016,1.8516055590877016
+physnet_pure,DATASET_1 only,6,43.124905925689916,60.61590149101121
+physnet_pure,DATASET_2 only,16,1.6168998146860973,3.106296331165531
+physnet_pure,DATASET_2 + TEST split,4,0.6541450389590651,1.0902530675253816

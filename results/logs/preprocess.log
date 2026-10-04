@@ -1,0 +1,26 @@
+Found 22 clips (6 DATASET_1, 16 DATASET_2).
+  [DATASET_1] 10-gt: 1226 frames @ 28.67fps, gt=yes (2662 samples)
+  [DATASET_1] 11-gt: 2300 frames @ 28.67fps, gt=yes (4991 samples)
+  [DATASET_1] 5-gt: 2409 frames @ 28.67fps, gt=yes (5223 samples)
+  [DATASET_1] 6-gt: 2383 frames @ 28.67fps, gt=yes (5192 samples)
+  [DATASET_1] 8-gt: 2102 frames @ 28.67fps, gt=yes (4580 samples)
+  [DATASET_1] after-exercise: 3368 frames @ 28.64fps, gt=yes (7304 samples)
+  [DATASET_2] subject1: 1547 frames @ 29.26fps, gt=yes (1547 samples)
+  [DATASET_2] subject10: 2024 frames @ 29.88fps, gt=yes (2024 samples)
+  [DATASET_2] subject11: 2031 frames @ 29.70fps, gt=yes (2031 samples)
+  [DATASET_2] subject12: 1989 frames @ 29.03fps, gt=yes (1989 samples)
+  [DATASET_2] subject13: 2018 frames @ 29.79fps, gt=yes (2018 samples)
+  [DATASET_2] subject14: 1993 frames @ 29.37fps, gt=yes (1993 samples)
+  [DATASET_2] subject15: 2020 frames @ 29.59fps, gt=yes (2020 samples)
+  [DATASET_2] subject16: 2050 frames @ 29.93fps, gt=yes (2050 samples)
+  [DATASET_2] subject17: 2046 frames @ 29.93fps, gt=yes (2046 samples)
+  [DATASET_2] subject18: 2034 frames @ 29.75fps, gt=yes (2034 samples)
+  [DATASET_2] subject20: 2016 frames @ 29.51fps, gt=yes (2016 samples)
+  [DATASET_2] subject3: 1801 frames @ 29.55fps, gt=yes (1801 samples)
+  [DATASET_2] subject4: 1368 frames @ 29.61fps, gt=yes (1368 samples)
+  [DATASET_2] subject5: 1550 frames @ 29.66fps, gt=yes (1550 samples)
+  [DATASET_2] subject8: 2022 frames @ 29.89fps, gt=yes (2022 samples)
+  [DATASET_2] subject9: 2016 frames @ 29.54fps, gt=yes (2016 samples)
+
+Split sizes: train=15, val=3, test=4
+Manifest written to results/tables/split_manifest.csv

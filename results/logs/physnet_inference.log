@@ -1,0 +1,64 @@
+
+=== physnet_ubfc (UBFC-rPPG_PhysNet_DiffNormalized.pth) ===
+  10-gt: 1 windows
+  11-gt: 1 windows
+  5-gt: 1 windows
+  6-gt: 1 windows
+  8-gt: 1 windows
+  after-exercise: 1 windows
+  subject1: 1 windows
+  subject10: 1 windows
+  subject11: 1 windows
+  subject12: 1 windows
+  subject13: 1 windows
+  subject14: 1 windows
+  subject15: 1 windows
+  subject16: 1 windows
+  subject17: 1 windows
+  subject18: 1 windows
+  subject20: 1 windows
+  subject3: 1 windows
+  subject4: 1 windows
+  subject5: 1 windows
+  subject8: 1 windows
+  subject9: 1 windows
+
+=== physnet_pure (PURE_PhysNet_DiffNormalized.pth) ===
+  10-gt: 1 windows
+  11-gt: 1 windows
+  5-gt: 1 windows
+  6-gt: 1 windows
+  8-gt: 1 windows
+  after-exercise: 1 windows
+  subject1: 1 windows
+  subject10: 1 windows
+  subject11: 1 windows
+  subject12: 1 windows
+  subject13: 1 windows
+  subject14: 1 windows
+  subject15: 1 windows
+  subject16: 1 windows
+  subject17: 1 windows
+  subject18: 1 windows
+  subject20: 1 windows
+  subject3: 1 windows
+  subject4: 1 windows
+  subject5: 1 windows
+  subject8: 1 windows
+  subject9: 1 windows
+[physnet_ubfc] [ALL clips] n_windows=22  MAE=16.93 bpm  RMSE=33.74 bpm
+[physnet_ubfc] [TEST split only] n_windows=4  MAE=0.65 bpm  RMSE=1.09 bpm
+[physnet_ubfc] [resting clips only (excl. after-exercise)] n_windows=21  MAE=17.72 bpm  RMSE=34.53 bpm
+[physnet_ubfc] [after-exercise clip only] n_windows=1  MAE=0.35 bpm  RMSE=0.35 bpm
+[physnet_ubfc] [DATASET_1 only] n_windows=6  MAE=46.54 bpm  RMSE=57.34 bpm
+[physnet_ubfc] [DATASET_2 only] n_windows=16  MAE=5.83 bpm  RMSE=18.23 bpm
+[physnet_ubfc] [DATASET_2 + TEST split] n_windows=4  MAE=0.65 bpm  RMSE=1.09 bpm
+Written to results/tables/physnet_ubfc_results.csv
+[physnet_pure] [ALL clips] n_windows=22  MAE=12.94 bpm  RMSE=31.77 bpm
+[physnet_pure] [TEST split only] n_windows=4  MAE=0.65 bpm  RMSE=1.09 bpm
+[physnet_pure] [resting clips only (excl. after-exercise)] n_windows=21  MAE=13.47 bpm  RMSE=32.51 bpm
+[physnet_pure] [after-exercise clip only] n_windows=1  MAE=1.85 bpm  RMSE=1.85 bpm
+[physnet_pure] [DATASET_1 only] n_windows=6  MAE=43.12 bpm  RMSE=60.62 bpm
+[physnet_pure] [DATASET_2 only] n_windows=16  MAE=1.62 bpm  RMSE=3.11 bpm
+[physnet_pure] [DATASET_2 + TEST split] n_windows=4  MAE=0.65 bpm  RMSE=1.09 bpm
+Written to results/tables/physnet_pure_results.csv

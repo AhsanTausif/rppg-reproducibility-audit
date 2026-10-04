@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Datasets & heavy intermediates (never committed) ---
+data/raw/
+data/processed/
+*.npy
+*.npz
+*.avi
+*.mp4
+
+# --- Third-party model files (fetched by scripts/download_models.py) ---
+models/*
+!models/README.md
+
+# --- Slide-deck figure variants (regenerate with src/make_figures.py) ---
+docs/figures/dark/
+
+# --- Tooling / OS noise ---
+node_modules/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini

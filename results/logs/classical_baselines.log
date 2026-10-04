@@ -1,0 +1,52 @@
+  10-gt: 1 CHROM windows, 1 POS windows
+  11-gt: 1 CHROM windows, 1 POS windows
+  5-gt: 1 CHROM windows, 1 POS windows
+  6-gt: 1 CHROM windows, 1 POS windows
+  8-gt: 1 CHROM windows, 1 POS windows
+  after-exercise: 1 CHROM windows, 1 POS windows
+  subject1: 1 CHROM windows, 1 POS windows
+  subject10: 1 CHROM windows, 1 POS windows
+  subject11: 1 CHROM windows, 1 POS windows
+  subject12: 1 CHROM windows, 1 POS windows
+  subject13: 1 CHROM windows, 1 POS windows
+  subject14: 1 CHROM windows, 1 POS windows
+  subject15: 1 CHROM windows, 1 POS windows
+  subject16: 1 CHROM windows, 1 POS windows
+  subject17: 1 CHROM windows, 1 POS windows
+  subject18: 1 CHROM windows, 1 POS windows
+  subject20: 1 CHROM windows, 1 POS windows
+  subject3: 1 CHROM windows, 1 POS windows
+  subject4: 1 CHROM windows, 1 POS windows
+  subject5: 1 CHROM windows, 1 POS windows
+  subject8: 1 CHROM windows, 1 POS windows
+  subject9: 1 CHROM windows, 1 POS windows
+
+[ALL clips (full pooled dataset, training-free)] n_windows=22
+  CHROM  MAE=3.82 bpm  RMSE=8.47 bpm
+  POS    MAE=6.95 bpm  RMSE=15.80 bpm
+
+[TEST split only (subject-independent)] n_windows=4
+  CHROM  MAE=0.20 bpm  RMSE=0.24 bpm
+  POS    MAE=1.46 bpm  RMSE=2.20 bpm
+
+[resting clips only (excl. after-exercise)] n_windows=21
+  CHROM  MAE=3.93 bpm  RMSE=8.66 bpm
+  POS    MAE=7.23 bpm  RMSE=16.17 bpm
+
+[after-exercise clip only] n_windows=1
+  CHROM  MAE=1.50 bpm  RMSE=1.50 bpm
+  POS    MAE=1.08 bpm  RMSE=1.08 bpm
+
+[DATASET_1 only] n_windows=6
+  CHROM  MAE=1.41 bpm  RMSE=1.86 bpm
+  POS    MAE=1.01 bpm  RMSE=1.57 bpm
+
+[DATASET_2 only] n_windows=16
+  CHROM  MAE=4.72 bpm  RMSE=9.87 bpm
+  POS    MAE=9.18 bpm  RMSE=18.50 bpm
+
+[DATASET_2 + TEST split] n_windows=4
+  CHROM  MAE=0.20 bpm  RMSE=0.24 bpm
+  POS    MAE=1.46 bpm  RMSE=2.20 bpm
+
+Written to results/tables/classical_results.csv

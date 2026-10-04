@@ -1,0 +1,52 @@
+  [DATASET_1] 10-gt (resting): GT=70.1  CHROM=71.0  POS=71.0  PhysNet(UBFC)=138.9  PhysNet(PURE)=70.8
+  [DATASET_1] 11-gt (resting): GT=78.7  CHROM=76.5  POS=79.0  PhysNet(UBFC)=79.1  PhysNet(PURE)=159.1
+  [DATASET_1] 5-gt (resting): GT=76.5  CHROM=76.5  POS=76.5  PhysNet(UBFC)=147.7  PhysNet(PURE)=154.2
+  [DATASET_1] 6-gt (resting): GT=84.3  CHROM=84.5  POS=84.5  PhysNet(UBFC)=166.6  PhysNet(PURE)=181.9
+  [DATASET_1] 8-gt (resting): GT=62.4  CHROM=58.8  POS=58.8  PhysNet(UBFC)=118.7  PhysNet(PURE)=62.8
+  [DATASET_1] after-exercise (after-exercise): GT=105.6  CHROM=104.1  POS=104.5  PhysNet(UBFC)=105.9  PhysNet(PURE)=103.7
+  [DATASET_2] subject1 (resting): GT=107.5  CHROM=107.2  POS=107.2  PhysNet(UBFC)=107.2  PhysNet(PURE)=107.2
+  [DATASET_2] subject10 (resting): GT=119.5  CHROM=120.0  POS=119.5  PhysNet(UBFC)=119.1  PhysNet(PURE)=119.5
+  [DATASET_2] subject11 (resting): GT=127.0  CHROM=87.1  POS=127.1  PhysNet(UBFC)=127.4  PhysNet(PURE)=127.0
+  [DATASET_2] subject12 (resting): GT=65.2  CHROM=65.1  POS=65.1  PhysNet(UBFC)=65.0  PhysNet(PURE)=65.0
+  [DATASET_2] subject13 (resting): GT=109.6  CHROM=109.6  POS=109.1  PhysNet(UBFC)=109.4  PhysNet(PURE)=109.4
+  [DATASET_2] subject14 (resting): GT=75.7  CHROM=70.6  POS=80.9  PhysNet(UBFC)=148.1  PhysNet(PURE)=75.6
+  [DATASET_2] subject15 (resting): GT=111.0  CHROM=117.1  POS=58.5  PhysNet(UBFC)=116.5  PhysNet(PURE)=116.5
+  [DATASET_2] subject16 (resting): GT=92.1  CHROM=92.6  POS=92.6  PhysNet(UBFC)=95.8  PhysNet(PURE)=95.8
+  [DATASET_2] subject17 (resting): GT=87.0  CHROM=84.7  POS=89.1  PhysNet(UBFC)=84.8  PhysNet(PURE)=84.8
+  [DATASET_2] subject18 (resting): GT=127.7  CHROM=123.8  POS=124.3  PhysNet(UBFC)=123.9  PhysNet(PURE)=123.9
+  [DATASET_2] subject20 (resting): GT=131.8  CHROM=131.5  POS=131.5  PhysNet(UBFC)=131.8  PhysNet(PURE)=131.8
+  [DATASET_2] subject3 (resting): GT=98.7  CHROM=87.5  POS=82.3  PhysNet(UBFC)=98.9  PhysNet(PURE)=98.9
+  [DATASET_2] subject4 (resting): GT=110.5  CHROM=110.7  POS=105.5  PhysNet(UBFC)=110.7  PhysNet(PURE)=110.7
+  [DATASET_2] subject5 (resting): GT=99.7  CHROM=100.0  POS=99.6  PhysNet(UBFC)=99.8  PhysNet(PURE)=99.8
+  [DATASET_2] subject8 (resting): GT=111.2  CHROM=111.3  POS=110.8  PhysNet(UBFC)=111.2  PhysNet(PURE)=111.2
+  [DATASET_2] subject9 (resting): GT=105.6  CHROM=105.2  POS=70.1  PhysNet(UBFC)=109.4  PhysNet(PURE)=115.1
+
+=== ALL clips pooled (DATASET_1+2) ===
+[chrom] resting: n=21 MAE=3.72 RMSE=9.33
+[chrom] after-exercise: n=1 MAE=1.50 RMSE=1.50
+[chrom] fairness gap |MAE_ex - MAE_rest| = 2.22 bpm
+[pos] resting: n=21 MAE=6.06 RMSE=14.40
+[pos] after-exercise: n=1 MAE=1.08 RMSE=1.08
+[pos] fairness gap |MAE_ex - MAE_rest| = 4.98 bpm
+[physnet_ubfc] resting: n=21 MAE=17.72 RMSE=34.53
+[physnet_ubfc] after-exercise: n=1 MAE=0.35 RMSE=0.35
+[physnet_ubfc] fairness gap |MAE_ex - MAE_rest| = 17.37 bpm
+[physnet_pure] resting: n=21 MAE=13.47 RMSE=32.51
+[physnet_pure] after-exercise: n=1 MAE=1.85 RMSE=1.85
+[physnet_pure] fairness gap |MAE_ex - MAE_rest| = 11.61 bpm
+
+=== DATASET_2 resting + DATASET_1 after-exercise (avoids PhysNet's DATASET_1 crop confound) ===
+[chrom] resting: n=16 MAE=4.45 RMSE=10.64
+[chrom] after-exercise: n=1 MAE=1.50 RMSE=1.50
+[chrom] fairness gap |MAE_ex - MAE_rest| = 2.95 bpm
+[pos] resting: n=16 MAE=7.64 RMSE=16.47
+[pos] after-exercise: n=1 MAE=1.08 RMSE=1.08
+[pos] fairness gap |MAE_ex - MAE_rest| = 6.56 bpm
+[physnet_ubfc] resting: n=16 MAE=5.83 RMSE=18.23
+[physnet_ubfc] after-exercise: n=1 MAE=0.35 RMSE=0.35
+[physnet_ubfc] fairness gap |MAE_ex - MAE_rest| = 5.48 bpm
+[physnet_pure] resting: n=16 MAE=1.62 RMSE=3.11
+[physnet_pure] after-exercise: n=1 MAE=1.85 RMSE=1.85
+[physnet_pure] fairness gap |MAE_ex - MAE_rest| = 0.23 bpm
+
+Written to results/tables/step5_per_clip.csv and step5_group_summary.csv

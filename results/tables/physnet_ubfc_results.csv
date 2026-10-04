@@ -1,0 +1,8 @@
+checkpoint,label,n_windows,mae,rmse
+physnet_ubfc,ALL clips,22,16.928523040543308,33.74079580994722
+physnet_ubfc,TEST split only,4,0.6541450389590651,1.0902530675253816
+physnet_ubfc,resting clips only (excl. after-exercise),21,17.718183182192405,34.53472314770894
+physnet_ubfc,after-exercise clip only,1,0.34566006591229836,0.34566006591229836
+physnet_ubfc,DATASET_1 only,6,46.53602438516068,57.34082473993496
+physnet_ubfc,DATASET_2 only,16,5.825710036311791,18.230961902784575
+physnet_ubfc,DATASET_2 + TEST split,4,0.6541450389590651,1.0902530675253816
